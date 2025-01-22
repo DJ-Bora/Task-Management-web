@@ -1,0 +1,21 @@
+.user-png{
+    margin-top: -5px;
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.navbar-brand{
+    color: rgb(245, 165, 179);   
+}
+
+.btn-nav{
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+    

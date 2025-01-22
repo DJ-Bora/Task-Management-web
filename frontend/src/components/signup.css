@@ -1,0 +1,95 @@
+/* signup.css */
+
+/* General Page Styling */
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Signup Wrapper */
+.signup {
+  width: 100%;
+  max-width: 1200px;
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column Styling */
+.col-left {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.col-left h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.col-left p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Right Column Styling */
+.column {
+  padding: 50px 30px;
+}
+
+.column .input-signup {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.column .input-signup:focus {
+  outline: none;
+  border-color: #6a11cb;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.4);
+}
+
+.column .btn-signup {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.column .btn-signup:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .col-left {
+    display: none;
+  }
+  .col-right {
+    width: 100%;
+  }
+}
