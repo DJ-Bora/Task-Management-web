@@ -22,7 +22,5 @@ app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
 });
 
-// Start Server
-app.listen(1000, () => {
-  console.log("Server started on http://localhost:1000");
-});
+// Export the Express app for Vercel to handle serverless routing
+module.exports = app;
