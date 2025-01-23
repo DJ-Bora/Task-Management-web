@@ -28,7 +28,7 @@ const Signin = () => {
 
     try {
       const response = await axios.post(
-        `https://task-management-web-nu.vercel.app/signin/api/v1/signin`,
+        `${window.location.origin}/api/v1/signin`,
         inputs
       );
 
